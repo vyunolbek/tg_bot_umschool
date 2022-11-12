@@ -3,7 +3,7 @@ import requests
 import json
 from time import sleep
 from random import randint
-token = "5247668387:AAFyX03qxDXK4UnfscNHA42QSC2ntnjIT-I"
+token = "TG BOT TOKEN"
 bot = telebot.TeleBot(token)
 
 cache_id = set()
@@ -15,9 +15,9 @@ def dz(message):
 
     payload = {
         # "next": "/profile/",
-        "csrfmiddlewaretoken": "KpoDirYjPwfuq8lgkPb2dqoa2olIcCTq22V0mxwQMvE0Io4CEzXYRwx6IKxepHXA",
-        "login": "vyunolbek@yandex.ru",
-        "password": "sibbborg17--!"
+        "csrfmiddlewaretoken": "UMSCHOOL TOKEN",
+        "login": "e-mail",
+        "password": "PASSOWRD"
     }
 
     headers = {
